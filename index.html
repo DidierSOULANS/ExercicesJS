@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>First JS Page</title>
-        <script src="assets/js/code.js"></script>
-        <script>
-            function check(){
-                 var nbr;
-                 nbr = Number(document.getElementById("myInput").value);
-                 console.log(nbr)
-            }
-         </script>
-    </head>
 
-    <body>
+<head>
+    <title>First JS Page</title>
+    <script src="assets/js/code.js"></script>
+    <script>
+        function check() {
+            var nbr;
+            nbr = Number(document.getElementById("myInput").value);
+            console.log(nbr)
+        }
+    </script>
+</head>
 
-        <div>
-                <input id="input1" type="text" value=""></input>
-                <label for="input1">Paramètre 1</label>
-                <br>
-                <input id="input2" type="text" value=""></input>
-                <label for="input2">Paramètre 2</label>
-                <br>
-                <input id="input3" type="text" value=""></input>
-                <label for="input3">Paramètre 3</label>
-                <br>
-                <input id="input4" type="text" value=""></input>
-                <label for="input4">Paramètre 4</label>
-                <br>
-                <input id="input5" type="text" value=""></input>
-                <label for="input5">Paramètre 5</label>
-                <br>
-                <input  onclick="lePlusGrand()" type="submit" value="Le plus grand des 2" /><br>
-                <input  onclick="tri()" type="submit" value="tri" /><br>
-                <input  onclick="lePlusGrandFull()" type="submit" value="Le plus grand des 5" />
-            </form>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="Resultats">
+<body>
 
-        </div>
-    </body>
+    <div>
+        <input id="input1" type="text" value=""></input>
+        <label for="input1">Paramètre 1</label>
+        <br>
+        <input id="input2" type="text" value=""></input>
+        <label for="input2">Paramètre 2</label>
+        <br>
+        <input id="input3" type="text" value=""></input>
+        <label for="input3">Paramètre 3</label>
+        <br>
+        <input id="input4" type="text" value=""></input>
+        <label for="input4">Paramètre 4</label>
+        <br>
+        <input id="input5" type="text" value=""></input>
+        <label for="input5">Paramètre 5</label>
+        <br>
+        <input onclick="lePlusGrand()" type="submit" value="Le plus grand des 2" /><br>
+        <input onclick="tri()" type="submit" value="tri" /><br>
+        <input onclick="lePlusGrandFull()" type="submit" value="Le plus grand des 5" />
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="Resultats">
+
+    </div>
+</body>
+
 </html>
